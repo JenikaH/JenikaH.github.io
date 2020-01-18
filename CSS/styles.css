@@ -2,10 +2,11 @@
 
 header,
 footer {
+    border-radius: 10px;
     font-family: 'Playfair Display', serif;
     padding: 2em;
     margin: 2em;
-    background-color: coral;
+    background-color: rgb(255, 213, 198);
     border: coral;
     text-align: center;
 }
