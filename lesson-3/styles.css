@@ -3,11 +3,18 @@
 header,
 footer {
     border-radius: 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Gayathri', sans-serif;
     padding: 2em;
     margin: 2em;
     background-color: coral;
     border: coral;
+}
+
+nav, p, ul {
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
     text-align: center;
 }
 
@@ -15,13 +22,7 @@ main {
     margin-left: 4em;
 }
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    position: center;
-}
-
-h2 {
+h1, h2, h3 {
     font-family: 'Gayathri', sans-serif;
     font-size: 1rem;
 }
