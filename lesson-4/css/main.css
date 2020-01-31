@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Playfair+Display&display=swap');
+
+header,
+footer {
+    font-family: 'Playfair Display', serif;
+    padding: 2em;
+    background-color: coral;
+    text-align: center;
+}
+
+main {
+    margin-left: 4em;
+}
+
+h1,
+h2 {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 1.5rem;
+    position: center;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
