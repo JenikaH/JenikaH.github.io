@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Playfair+Display&display=swap');
+
+header,
+footer {
+    font-family: 'Playfair Display', serif;
+    padding: 2em;
+    background-color: #ec4067;
+    text-align: center;
+}
+
+header {
+    display: flex block;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ef5d60;
+}
+
+li a {
+    display: block;
+    color: white;
+    border-bottom: 1px solid #faa275;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+li {
+    float: center;
+}
+
+
+
+li a:hover {
+    background-color: #a01a7d;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 7em;
+}
+
+h2 {
+    padding-left: 2em;
+}
+
+h1,
+h2 {
+    font-family: 'Gayathri', sans-serif;
+    position: center;
+}
+
+p,
+div {
+    font-family: 'Playfair Display', serif;
+}
+
+.box {
+    background-color: #faa275;
+    margin: 1.5em;
+    padding: 2em;
+}

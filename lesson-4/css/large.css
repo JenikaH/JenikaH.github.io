@@ -1,0 +1,9 @@
+@media only screen and (min-width: 58em) {
+    ul{
+        padding: 1em;
+        padding-left: center;
+    }
+    li a {
+        border-bottom: none;
+    }
+}
