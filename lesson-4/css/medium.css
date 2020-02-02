@@ -1,7 +1,12 @@
-@media only screen and (min-width: 38em) {
-     li a {
-         float: left;
-         padding: 1em;
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+    } 
+    
+    .navigation li {
+         display: inline;
          border-left: 1px solid #faa275;
      }
+
+    
 }
