@@ -13,9 +13,25 @@ header {
     align-items: center;
     justify-content: center;
 }
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
 
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
 .responsive li {
     display: block;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -38,8 +54,6 @@ li a {
 li {
     float: center;
 }
-
-
 
 li a:hover {
     background-color: #a01a7d;

@@ -1,3 +1,3 @@
 function hamburger() {
-    document.querySelector(".navigation").classList.toggle("responsive");
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
