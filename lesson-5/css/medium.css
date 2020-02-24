@@ -1,0 +1,85 @@
+@media only screen and (min-width: 34em) {
+    .navigation li {
+        border-left: 1px solid #faa275;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        padding: 1em;
+        margin-left: 1.4em;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    li a {
+        border-bottom: none;
+    }
+
+
+    /****************** Display Map *************************/
+    .map {
+        display: block;
+        width: 50%;
+        height: 50%;
+    }
+
+    /************* Display banner Section **********************/
+    .ad h2 {
+        font-size: 1.5rem;
+    }
+
+    /****************** 5 Day Forcast ************************/
+
+    .fiveday {
+        display: block;
+        margin: 1.5em;
+        padding: 2em; 
+    }
+
+    .forcast {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col {
+        flex: 1 1 100%;
+        border-top: 1px solid #faa275;
+        border-bottom: 1px solid #faa275;
+        border-left: 1px solid #faa275;
+        border-right: 1px solid #faa275;
+        background-color: whitesmoke;
+        font-size: 13px;
+        text-align: center;
+    }
+
+
+    .label {
+        display: block;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 1px solid #faa275;
+        background-color: #eee;
+    }
+
+    .forcast div img,
+    table img {
+        border-radius: 100%;
+        padding: 1em;
+        width: 30%;
+    }
+
+    .data {
+        display: block;
+        padding: 0 5px 5px;
+    }
+}

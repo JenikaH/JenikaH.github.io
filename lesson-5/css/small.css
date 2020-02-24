@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Playfair+Display&display=swap');
+
+header,
+footer {
+    font-family: 'Playfair Display', serif;
+    padding: 2em;
+    background-color: #ec4067;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+picture {
+    padding-right: 1em;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ef5d60;
+}
+
+li a {
+    display: block;
+    color: white;
+    border-bottom: 1px solid #faa275;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+li {
+    float: center;
+}
+
+li a:hover {
+    background-color: #a01a7d;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 7em;
+}
+
+h2 {
+    padding-left: 2em;
+}
+
+h1,
+h2 {
+    font-family: 'Gayathri', sans-serif;
+    position: center;
+}
+
+p,
+div {
+    font-family: 'Playfair Display', serif;
+}
+
+.box {
+    background-color: #faa275;
+    margin: 1.5em;
+    padding: 2em;
+}
+
+.herodiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.herodiv {
+    margin: auto;
+    position: relative;
+    background-color: #faa275;
+    width: 94%;
+    height: 20em;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 5em;
+    left: 5em;
+    width: 10em;
+    height: 12em;
+    background: radial-gradient(#ef5d60, #faa275);
+    border: 0.2em solid #ec4067;
+    padding: 0.8em;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+}
+
+.weathersummary p {
+    line-height: 80%;
+}
+
+article img {
+    margin: 3em;
+    width: 30%;
+    height: 30%;
+}
+
+/***** Display banner Section ******/
+
+.ad {
+    background-color: #a01a7d;
+    color: whitesmoke;
+    text-shadow: 4px -2px 5px black;
+}
+
+.ad h2 {
+    font-size: 1rem;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+c r
+.active {
+    background-color: #ec4067;
+    color: #faa275;
+}
+/****************** 5 Day Forcast ************************/
+
+.fiveday {
+    display: none;
+}
+
+/************ Preston Contact Section *************/
+.map {
+    display: none;
+}

@@ -9,7 +9,7 @@ footer {
 }
 
 header {
-    display: flex block;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
