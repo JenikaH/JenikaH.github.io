@@ -28,9 +28,15 @@
     /****************** Display Map *************************/
     .map {
         display: block;
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        max-width: 400px;
     }
+
+    .contactbox {
+        padding: 5em;
+        margin: auto;
+    }
+
 
     /************* Display banner Section **********************/
     .ad h2 {
