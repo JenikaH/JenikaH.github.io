@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../lesson-7/css/lazyload.css">
     <link rel="stylesheet" href="../lesson-7/css/normalize.css">
     <link rel="stylesheet" href="../lesson-7/css/small.css">
     <link rel="stylesheet" href="../lesson-7/css/medium.css">
     <link rel="stylesheet" href="../lesson-7/css/large.css">
     <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../lesson-7/css/lazyload.css">
+    
     <title>
         Gallery
     </title>
@@ -36,7 +37,30 @@
         </ul>
     </nav>
     <main>
+        <h1>Lazy Loading Images</h1>
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/fish1.jpg" alt="fish">
+        </picture>
 
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/kitten1.jpg" alt="kitten">
+        </picture>
+        
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/sunrise1.jpg" alt="sunrise">
+        </picture>
+        
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/tomato1.jpg" alt="tomato">
+        </picture>
+
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/waterfall1.jpg" alt="waterfall">
+        </picture>
+
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/waterfall1.jpg" alt="waterfall">
+        </picture> 
     </main>
     <footer class="footer">
         <p class="copyright">
@@ -46,6 +70,7 @@
     </footer>
     <script src="../lesson-7/js/date.js"></script>
     <script src="/lesson-7/js/hamburger-menu.js"></script>
+    <script src="../lesson-7/js/lazyload.js"></script>
 </body>
 
 </html>
