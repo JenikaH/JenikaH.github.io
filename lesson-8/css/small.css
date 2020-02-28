@@ -87,78 +87,11 @@ div {
     display: flex;
 }
 
-/************ Hero Section *******************/
-
-main figure.myphoto {
-    width: 100%;
-    margin: 0 0 0 2%;
-    position: relative;
-    background-color: #faa275;
-}
-
-main figure.myphoto img {
-    width: 100%;
-}
-
-main figure.myphoto figcaption {
-    text-align: center;
-    font-size: .75rem
-}
-
-.weathersummary {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    min-width: 10em;
-    height: 12em;
-    background: radial-gradient(#ef5d60, #faa275);
-    border: 0.2em solid #ec4067;
-    padding: 0.8em;
-    box-shadow: 0 0 30px #111;
-    opacity: .8;
-}
-
-.weathersummary p {
-    line-height: 80%;
-}
-
-/************ Article Section **********************/
-
-article img {
-    width: 90%;
-    margin: auto;
-}
-
-/***** Display banner Section ******/
-
-.ad {
-    background-color: #a01a7d;
-    color: whitesmoke;
-    text-shadow: 4px -2px 5px black;
-}
-
-.ad h2 {
-    font-size: 1rem;
-    align-items: center;
-}
-
-.hidden {
-    display: none;
-}
-
- .active {
+.active {
     background-color: #ec4067;
     color: #faa275;
 }
 
-/****************** 5 Day Forcast ************************/
 
-.fiveday {
-    display: none;
-}
-
-/************ Preston Contact Section *************/
-.map {
-    display: none;
-}
+/************* FORM *****************/
 
