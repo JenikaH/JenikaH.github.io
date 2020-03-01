@@ -23,14 +23,6 @@ th {
     background-color: #628ca6;
 }
 
-tr:nth-child(odd) {
-    background-color: #e7ffed;
-}
-
-tr:nth-child(even) {
-    background-color: #e7f0ed;
-}
-
 .bold {
     color: white;
     background-color: #628ca6;
@@ -38,4 +30,12 @@ tr:nth-child(even) {
 
 .top {
     background-color: #7fb9c2;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
 }
