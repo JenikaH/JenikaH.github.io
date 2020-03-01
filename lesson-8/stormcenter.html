@@ -51,7 +51,7 @@
                 <legend>Weather Report</legend>
                 <label class="top">Storm date <input type="date" name="date"> </label>
 
-                <label for="stormType" class="top">Storm Type</label>
+                <label class="top">Storm Type</label>
                 <input type="text" list="Storm" name="stormType" placeholder="Please Select One">
                 <datalist id="Storm">
                     <option value="Flash Flood"></option>
@@ -61,7 +61,7 @@
                     <option value="Tornado"></option>
                 </datalist>
 
-                <label for="rating" class="top">Storm Severity (1-10)
+                <label class="top">Storm Severity (1-10)
                     <input type="range" min="1" max="10" step="1" value="5" list="tickmarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
@@ -96,11 +96,11 @@
 
             <fieldset>
                 <legend>Comments</legend>
-                <label class="top"><textarea width="150px" maxlength="300" placeholder="300 character limit"></textarea> </label>
+                <label class="top"><textarea maxlength="300" placeholder="300 character limit"></textarea> </label>
             </fieldset>
 
             <input type="submit" value="Report Storm" class="button">
- 
+        </form>
     </main>
     <footer class="footer">
         <p class="copyright">
