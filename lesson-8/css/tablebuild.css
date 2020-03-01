@@ -3,11 +3,11 @@
 
 table {
     justify-content: center;
-    text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: auto;
     background-color: #7fb9c2;
     box-shadow: 8px 8px 14px #7fb9c2;
-    margin: auto;
 }
 
 table,
