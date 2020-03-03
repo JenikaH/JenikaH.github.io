@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Playfair+Display&display=swap');
+
+header,
+footer {
+    font-family: 'Playfair Display', serif;
+    padding: 2em;
+    background-color: #ec4067;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+picture {
+    padding-right: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ef5d60;
+}
+
+li a {
+    display: block;
+    color: white;
+    border-bottom: 1px solid #faa275;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #a01a7d;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 7em;
+}
+
+h2 {
+    padding-left: 2em;
+}
+
+h1,
+h2 {
+    font-family: 'Gayathri', sans-serif;
+}
+
+p,
+div {
+    font-family: 'Playfair Display', serif;
+}
+
+.box {
+    background-color: #faa275;
+    margin: 1.5em;
+    padding: 2em;
+    display: flex;
+}
+
+.active {
+    background-color: #ec4067;
+    color: #faa275;
+}
+
+
+/************* FORM (MAIN) *****************/
+
+form fieldset {
+    font-family: 'Gayathri', sans-serif;
+    margin: 2em;
+    border: 3px solid #faa275;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 30em;
+}
+
+form legend {
+    color: #ec4067;
+    font-size: 25px;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #ef5d60;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #a01a7d;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+.drop-radio {
+    display: inline-block;
+}
+
+form input.button {
+    border: none;
+    background-color: #a01a7d;
+    color: white;
+    font-family: 'Gayathri', sans-serif;
+    font-size: x-large;
+    border-radius: 1rem;
+    padding: .75rem;
+    padding-top: 1.3rem;
+    margin: 2em;
+    width: 96%;
+    max-width: 20rem;
+}
+
+.button:hover {
+    background-color: #ef5d60;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
