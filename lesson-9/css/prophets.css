@@ -1,0 +1,30 @@
+h1, footer {
+    background-color: #768907;
+    padding: 15px;
+    text-align: center;
+} 
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+section {
+    margin: .5em;
+    padding: 1em;
+    border: 2px solid royalblue;
+    background-color: rgb(129, 191, 216);
+    box-shadow: 8px 8px 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/************ Media Quiry for medium screens ***************/
+@media only screen and (min-width: 34em){
+    .card {
+        grid-template-columns: 1fr 1fr;
+    }
+}
