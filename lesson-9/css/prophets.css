@@ -24,7 +24,14 @@ img {
 
 /************ Media Quiry for medium screens ***************/
 @media only screen and (min-width: 34em){
-    .card {
+    .cards {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+/************ Media Quiry for Large screens ***************/
+@media only screen and (min-width: 58em){
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
