@@ -93,4 +93,24 @@ div {
 }
 
 
-/************* FORM (MAIN) *****************/
+/************* Weather Site Home Page *****************/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.cards section {
+    margin: .5em;
+    padding: 1em;
+    border: 2px solid #faa275;
+    border-radius: 10px;
+    background-color: rgb(255, 247, 232);
+    box-shadow: 8px 8px 20px;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
