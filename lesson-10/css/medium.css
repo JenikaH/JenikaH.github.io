@@ -1,0 +1,27 @@
+@media only screen and (min-width: 34em) {
+    .navigation li {
+        border-left: 1px solid #faa275;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        padding: 1em;
+        margin-left: 1.4em;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    li a {
+        border-bottom: none;
+    }
+
+}
