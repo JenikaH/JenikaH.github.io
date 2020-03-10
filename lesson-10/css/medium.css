@@ -24,4 +24,17 @@
         border-bottom: none;
     }
 
+        /****************** Display Map section*************************/
+        .map {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+        }
+    
+        .contactbox {
+            padding: 5em;
+            margin: auto;
+        }
+    
+
 }

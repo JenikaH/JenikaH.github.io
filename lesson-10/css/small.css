@@ -92,3 +92,22 @@ div {
     color: #faa275;
 }
 
+/***** Display banner Section ******/
+
+.ad {
+    background-color: #a01a7d;
+    color: whitesmoke;
+    text-shadow: 4px -2px 5px black;
+}
+
+.hidden {
+    display: none;
+}
+
+ .active {
+    background-color: #ec4067;
+    color: #faa275;
+}
+
+/***************** Article section **********************/
+
