@@ -104,13 +104,22 @@ div {
     display: none;
 }
 
- .active {
+.active {
     background-color: #ec4067;
     color: #faa275;
 }
 
 /***************** Article section **********************/
+.girl {
+    width: 100%;
+    display: block;
+}
 
+.contactbox {
+    display: block;
+    padding: 1.5em;
+    margin: auto;
+}
 
 /****************** 5 Day Forcast ************************/
 
@@ -122,9 +131,11 @@ div {
 .map {
     display: none;
 }
+
 /****************** Weather summary section *******************/
 .weathersummary {
     position: absolute;
+    margin-left: 40px;
     top: 15px;
     left: 15px;
     min-width: 10em;
@@ -140,10 +151,15 @@ div {
     line-height: 80%;
 }
 
+.herodiv {
+    position: relative;
+}
+
 /************ Hero Section *******************/
 
 main figure.myphoto img {
     width: 100%;
+    /*max-width: 900px;*/
 }
 
 main figure.myphoto figcaption {

@@ -3,7 +3,7 @@ a city id for Preston, Idaho,
 temperature units in Fahrenheit (imperial), and
 your own APPID.*/
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=6828ab982799b5bafd721bd612a9faec';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=6828ab982799b5bafd721bd612a9faec';
 
 fetch(apiURL)
     .then((response) => response.json())
