@@ -111,3 +111,42 @@ div {
 
 /***************** Article section **********************/
 
+
+/****************** 5 Day Forcast ************************/
+
+.fiveday {
+    display: none;
+}
+
+/************ Preston Contact Section *************/
+.map {
+    display: none;
+}
+/****************** Weather summary section *******************/
+.weathersummary {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    min-width: 10em;
+    height: 12em;
+    background: radial-gradient(#ef5d60, #faa275);
+    border: 0.2em solid #ec4067;
+    padding: 0.8em;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+}
+
+.weathersummary p {
+    line-height: 80%;
+}
+
+/************ Hero Section *******************/
+
+main figure.myphoto img {
+    width: 100%;
+}
+
+main figure.myphoto figcaption {
+    text-align: center;
+    font-size: .75rem
+}
