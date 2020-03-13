@@ -50,11 +50,11 @@
             </figure>
             <div class="weathersummary">
                 <h3><b>Weather Summary</b></h3>
-                <p><b>Currently:</b> Sunny</p>
-                <p><b>High:</b> 76 °F</p>
-                <p><b>Wind Chill:</b> °F</p>
-                <p><b>Humidity:</b> 69%</p>
-                <p><b>Wind Speed:</b> 5mph</p>
+                <p><b>Currently:</b> <span id="current"></span></p>
+                <p><b>High:</b> <span id="high"></span> &deg;F</p>
+                <p><b>Wind Chill:</b> </p>
+                <p><b>Humidity:</b> <span id="humidity"></span>%</p>
+                <p><b>Wind Speed:</b> <span id="wind"></span>mph</p>
             </div>
         </section>
 
@@ -102,7 +102,7 @@
                     Placeat perspiciatis voluptatem natus optio quod alias, laudantium sunt dolores deleniti!
                     Quae nostrum eius est, fugiat velit cupiditate. Id velit sint officiis?</p>
 
-                
+
             </div>
         </article>
 
@@ -122,14 +122,16 @@
 
     <footer class="footer">
         <p class="copyright">
-            &copy; 2020 | Jenika Higley | Utah | <a href="https://www.byui.edu/online">BYUI Online learning</a>
+            &copy; 2020 | Jenika Higley | Utah | <a href="https://www.byui.edu/online">BYUI Online learning</a> | <a href="https://openweathermap.org/">OpenWeather</a>
             <br>Last updated: <span id="currentdate"></span>
         </p>
     </footer>
+    <script src="../lesson-10/js/weatherapi.js"></script>
     <script src="../lesson-10/js/date.js"></script>
     <script src="/lesson-10/js/hamburger-menu.js"></script>
     <script src="../lesson-10/js/pancake-ad.js"></script>
     <script src="../lesson-10/js/windchill.js"></script>
+
 </body>
 
-</html>
+</html> 

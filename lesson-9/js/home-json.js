@@ -19,16 +19,13 @@ fetch(requestURL)
                 let rainfall = document.createElement('p');
                 let photo = document.createElement('img');
 
-                /* Is this needed? 
-                let image = document.createElement('alt');*/
-
                 h2.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
                 founded.textContent = "Year Founded: " + towns[i].yearFounded;
                 population.textContent = "Current Population: " + towns[i].currentPopulation;
                 rainfall.textContent = "Average Rainfall: " + towns[i].averageRainfall;
                 photo.setAttribute('src', "images/" + towns[i].photo);
-                photo.setAttribute('alt', towns[i].name + " Image")
+                photo.setAttribute('alt', towns[i].name + " Image");
 
                 card.appendChild(h2);
                 card.appendChild(motto);
