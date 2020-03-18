@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../lesson-11/css/lazyload.css">
     <link rel="stylesheet" href="../lesson-11/css/normalize.css">
     <link rel="stylesheet" href="../lesson-11/css/small.css">
     <link rel="stylesheet" href="../lesson-11/css/medium.css">
@@ -11,7 +12,7 @@
     <link rel="shortcut icon" href="../favicon.ico">
     
     <title>
-        Storm Center
+        Gallery
     </title>
 </head>
 
@@ -31,13 +32,35 @@
             <li><a href="../lesson-11/preston-11.html">Preston</a></li>
             <li><a href="../lesson-11/sodasprings.html">Soda Springs</a></li>
             <li><a href="../lesson-11/fishhaven.html">Fish Haven</a></li>
-            <li class="active"><a href="../lesson-11/stormcenter.html">Storm Center</a></li>
-            <li><a href="../lesson-11/gallery-11.html">Gallery</a></li>
+            <li><a href="../lesson-11/stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="../lesson-11/gallery-11.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Fish Haven</h1>
-        <p>Thanks for your contribution!</p>
+        <h1>Lazy Loading Images</h1>
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/fish1.jpg" alt="fish">
+        </picture>
+
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/kitten1.jpg" alt="kitten">
+        </picture>
+        
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/sunrise1.jpg" alt="sunrise">
+        </picture>
+        
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/tomato1.jpg" alt="tomato">
+        </picture>
+
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/waterfall1.jpg" alt="waterfall">
+        </picture>
+
+        <picture>
+            <img src="../lesson-7/images/placeholder_image.jpg" data-src="../lesson-7/images/waterfall1.jpg" alt="waterfall">
+        </picture> 
     </main>
     <footer class="footer">
         <p class="copyright">
@@ -47,6 +70,7 @@
     </footer>
     <script src="../lesson-11/js/date.js"></script>
     <script src="/lesson-11/js/hamburger-menu.js"></script>
+    <script src="../lesson-11/js/lazyload.js"></script>
 </body>
 
 </html>

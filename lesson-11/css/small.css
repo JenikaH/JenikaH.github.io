@@ -211,3 +211,76 @@ main figure.myphoto figcaption {
 .main p {
     padding: 10px;
 }
+/************* FORM (MAIN) *****************/
+
+form fieldset {
+    font-family: 'Gayathri', sans-serif;
+    margin: 2em;
+    border: 3px solid #faa275;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 30em;
+}
+
+form legend {
+    color: #ec4067;
+    font-size: 25px;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #ef5d60;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #a01a7d;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+.drop-radio {
+    display: inline-block;
+}
+
+form input.button {
+    border: none;
+    background-color: #a01a7d;
+    color: white;
+    font-family: 'Gayathri', sans-serif;
+    font-size: x-large;
+    border-radius: 1rem;
+    padding: .75rem;
+    padding-top: 1.3rem;
+    margin: 2em;
+    width: 96%;
+    max-width: 20rem;
+}
+
+.button:hover {
+    background-color: #ef5d60;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}

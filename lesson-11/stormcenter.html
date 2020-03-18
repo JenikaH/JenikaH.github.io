@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../lesson-11/css/normalize.css">
+    <link rel="stylesheet" href="../lesson-11/css/small.css">
+    <link rel="stylesheet" href="../lesson-11/css/medium.css">
+    <link rel="stylesheet" href="../lesson-11/css/large.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    
+    <title>
+        Storm Center
+    </title>
+</head>
+
+<body>
+    <header>
+        <script src="../lesson-11/js/hamburger-menu.js"></script>
+        <picture><img class="logo" src="../lesson-11/images/sun.png" alt="Sunny Day Weather Logo"></picture>
+        <section class="heading">
+            <h1>Sunny Day Weather</h1>
+            <div>It's always a sunny day!</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="hamburger()">Menu</a></li>
+            <li><a href="../lesson-11/index.html">Home</a></li>
+            <li><a href="../lesson-11/preston-6.html">Preston</a></li>
+            <li><a href="../lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="../lesson-11/fishhaven.html">Fish Haven</a></li>
+            <li class="active"><a href="../lesson-11/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson-11/gallery-11.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Storm Center</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required> </label>
+                <label class="top">Last Name* <input type="text" name="lname" required> </label>
+                <label class="top">Email <input type="email" name="email" placeholder="myemail@gmail.com"> </label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="(123)555-1234" required> </label>
+                <label class="top">Zip Code <input type="number" name="zip" required> </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Weather Report</legend>
+                <label class="top">Storm date <input type="date" name="date"> </label>
+
+                <label class="top">Storm Type</label>
+                <input type="text" list="Storm" name="stormType" placeholder="Please Select One">
+                <datalist id="Storm">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+
+                <label class="top">Storm Severity (1-10)
+                    <input type="range" min="1" max="10" step="1" value="5" list="tickmarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </label>
+                <datalist id="tickmarks">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+
+                <label for="stormRegion" class="top">Storm Region</label>
+                <select id="stormRegion" name="stormRegion">
+                    <option value disabled selected>Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+
+                <div>Are you in Danger level?</div>
+                <label class="sbs"><input type="radio" name="dangerlevel" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="dangerlevel" value="no"> No</label>
+                <label class="sbs"><input type="radio" name="dangerlevel" value="maybe"> Maybe</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Comments</legend>
+                <label class="top"><textarea maxlength="300" placeholder="300 character limit"></textarea> </label>
+            </fieldset>
+
+            <input type="submit" value="Report Storm" class="button">
+        </form>
+    </main>
+    <footer class="footer">
+        <p class="copyright">
+            &copy; 2020 | Jenika Higley | Utah | <a href="https://www.byui.edu/online">BYUI Online learning</a>
+            <br>Last updated: <span id="currentdate"></span>
+        </p>
+    </footer>
+    <script src="../lesson-11/js/date.js"></script>
+    <script src="/lesson-11/js/hamburger-menu.js"></script>
+</body>
+
+</html>
