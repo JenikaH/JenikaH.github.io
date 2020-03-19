@@ -12,7 +12,6 @@ let daysOfWeek =[
     'Saturday'
 ];
 
-
 // show/hide pancake
 let weekday = daysofWeek[weekDayNumber];
 if(daysofWeek[currentDate.getDay] === "Friday"){
