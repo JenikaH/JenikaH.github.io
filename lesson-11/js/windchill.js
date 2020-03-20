@@ -1,16 +1,4 @@
-/*Add a computed wind chill value to the weather summary on the town page. (see the screenshot above)
- The windchill value is a computed value using the current or high temperature
-  and wind speed which values you will extract from the page using JavaScript.
-
-It is recommended that you isolate the temperature and wind speed values in your 
-HTML document for easy extraction. When you isolate a value, consider using the<span> tag 
-and do not include the unit labels in your spanned content.
-Create a "windchill.js" file and add it to your "script" folder in the "lesson-6" folder.
-The "windchill.js" script should get the two input values of temperature and wind speed, 
-check to make sure they meet the required values allowed to officially calculate the wind chill, 
-and then either calculate and display the windchill factor value or display "N/A" (not applicable) 
-if the input values did not meet the requirements.
-
+/*
 The formula to calculate the wind chill factor is 
 LaTeX: f=35.74+0.6215\:t-35.75\:s^{0.16}+0.4275\:t\:s^{0.16}f = 35.74 + 0.6215 t − 35.75 s 0.16 + 0.4275 t s 0.16, 
 where f is the wind chill factor in Fahrenheit, t is the air average temperature in Fahrenheit, 
