@@ -93,13 +93,21 @@
 
     /****** Cards Section********/
     .cards {
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
+    }
+
+    .cards section div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .cards section img {
+        margin: auto;
     }
 
     .cards section {
         display: flex;
-
+        flex-direction: row;
     }
 
     .cards section:nth-child(odd) {

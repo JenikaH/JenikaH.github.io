@@ -92,6 +92,8 @@ div {
     color: #faa275;
 }
 
+
+
 /***** Display banner Section ******/
 
 .ad {
@@ -172,12 +174,12 @@ main figure.myphoto figcaption {
 .cards {
     display: grid;
     grid-template-columns: 1fr;
-    text-align: center;
+    
 }
 
 .cards section {
     margin: .5em;
-    padding: 1em;
+    padding: 20px;
     border: 2px solid #faa275;
     border-radius: 10px;
     background-color: rgb(255, 247, 232);
@@ -185,11 +187,14 @@ main figure.myphoto figcaption {
 }
 
 .cards img {
+    display: block;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 300px;
     width: 100%;
-    max-width: 400px;
-    height: auto;
     border-radius: 5px;
 }
+
 
 /******** Main section *********/
 
@@ -213,6 +218,9 @@ main figure.myphoto figcaption {
 }
 /************* FORM (MAIN) *****************/
 
+form {
+    justify-content: center;
+}
 form fieldset {
     font-family: 'Gayathri', sans-serif;
     margin: 2em;
