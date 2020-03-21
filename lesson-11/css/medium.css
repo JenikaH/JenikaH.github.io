@@ -114,5 +114,10 @@
     .cards section:nth-child(odd) {
         flex-direction: row-reverse;
     }
+/************* Gallery *********************/
+
+.gallery {
+    grid-template-columns: 1fr 1fr;
+}
 
 }

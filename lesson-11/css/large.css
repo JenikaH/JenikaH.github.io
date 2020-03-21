@@ -15,5 +15,10 @@
     .cards section {
         display: grid;
     }
+/************* Gallery *********************/
+
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }

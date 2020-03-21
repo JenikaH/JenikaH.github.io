@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="../lesson-11/css/medium.css">
     <link rel="stylesheet" href="../lesson-11/css/large.css">
     <link rel="shortcut icon" href="../favicon.ico">
-    
+
     <title>
-        Storm Center
+        Soda Springs
     </title>
 </head>
 
@@ -36,8 +36,87 @@
         </ul>
     </nav>
     <main>
-        <h1>Soda Springs</h1>
-        <p>Thanks for your contribution!</p>
+        <h2>Soda Springs</h2>
+        <section class="ad">
+            <span id="displayad" class="hidden">
+                <h2>Saturday = Preston Pancakes in the Park! 9:00 a.m.
+                        Saturday at the city
+                        park pavilion.</h2>
+            </span>
+        </section>
+
+        <section class="herodiv">
+            <figure class="myphoto">
+                <img src="../lesson-11/images/hero-image-large.jpg" alt="scenic view of mountains">
+            </figure>
+            <div class="weathersummary">
+                <h3><b>Weather Summary</b></h3>
+                <p><b>Currently:</b> <span id="current"></span></p>
+                <p><b>High:</b> <span id="high"></span> &deg;F</p>
+                <p><b>Wind Chill:</b> <span id="chill"></span> </p>
+                <p><b>Humidity:</b> <span id="humidity"></span>%</p>
+                <p><b>Wind Speed:</b> <span id="wind"></span>mph</p>
+            </div>
+        </section>
+
+        <section onload="getFiveDayForecast(5604473)">
+            <!--class="fiveday"-->
+            <!--    
+            <h2>5 Day Forcast</h2>
+            <div class="forcast">
+                <div class="col">
+                    <span class="label">Monday</span>
+                    <img src="../lesson-5/images/sun.png" alt="Weather image">
+                    <span class="data">75 °F</span>
+                </div>
+                <div class="col">
+                    <span class="label">Tuesday</span>
+                    <img src="../lesson-5/images/sun.png" alt="Weather image">
+                    <span class="data">72 °F</span>
+                </div>
+                <div class="col">
+                    <span class="label">Wednesday</span>
+                    <img src="../lesson-5/images/sun.png" alt="Weather image">
+                    <span class="data">78 °F</span>
+                </div>
+                <div class="col">
+                    <span class="label">Thursday</span>
+                    <img src="../lesson-5/images/sun.png" alt="Weather image">
+                    <span class="data">80 °F</span>
+                </div>
+                <div class="col">
+                    <span class="label">Friday</span>
+                    <img src="../lesson-5/images/sun.png" alt="Weather image">
+                    <span class="data">79 °F</span>
+                </div>
+            </div>
+-->
+            <table>
+                <tr>
+                    <th id="day1"></th>
+                    <th id="day2"></th>
+                    <th id="day3"></th>
+                    <th id="day4"></th>
+                    <th id="day5"></th>
+                </tr>
+                <tr>
+                    <td><img id="img1" src="" alt=""></td>
+                    <td><img id="img2" src="" alt=""></td>
+                    <td><img id="img3" src="" alt=""></td>
+                    <td><img id="img4" src="" alt=""></td>
+                    <td><img id="img5" src="" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Forcast</td>
+                    <td id="temp1"></td>
+                    <td id="temp2"></td>
+                    <td id="temp3"></td>
+                    <td id="temp4"></td>
+                    <td id="temp5"></td>
+                </tr>
+            </table>
+        </section>
+
     </main>
     <footer class="footer">
         <p class="copyright">
@@ -45,8 +124,12 @@
             <br>Last updated: <span id="currentdate"></span>
         </p>
     </footer>
+    <script src="../lesson-11/js/weatherapi.js"></script>
+    <script src="../lesson-11/js/forecast.js"></script>
     <script src="../lesson-11/js/date.js"></script>
     <script src="/lesson-11/js/hamburger-menu.js"></script>
+    <script src="../lesson-11/js/pancake-ad.js"></script>
+    <script src="../lesson-11/js/windchill.js"></script>
 </body>
 
 </html>
