@@ -15,8 +15,6 @@ function getFiveDayForecast(cityID) {
         .then((response) => response.json())
         .then((jsObject) => {
 
-       
-
             let hourString = '18:00:00';
             let counter = 1;
 

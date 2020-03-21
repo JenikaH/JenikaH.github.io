@@ -4,18 +4,6 @@
         border-bottom: none;
     }
 
-    .navigation li:first-child {
-        display: none;
-    }
-
-    .navigation a {
-        padding: 1em;
-    }
-
-    .navigation li {
-        display: block;
-    }
-
     /************* Weather Site Home Page *****************/
 
     /****** Cards Section********/

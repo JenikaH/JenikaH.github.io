@@ -45,20 +45,19 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ef5d60;
+    background-color: #faa275;
 }
 
 li a {
     display: block;
-    color: white;
-    border-bottom: 1px solid #faa275;
+    color: black;
     text-align: center;
     padding: 0.5em;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #a01a7d;
+    background-color: #ef5d60;
 }
 
 .logo {
@@ -87,9 +86,13 @@ div {
     display: flex;
 }
 
-.active {
-    background-color: #ec4067;
-    color: #faa275;
+li a:active {
+    background-color: #a01a7d;
+    color: white;
+}
+
+.main p {
+    text-align: left;
 }
 
 
@@ -100,6 +103,10 @@ div {
     background-color: #a01a7d;
     color: whitesmoke;
     text-shadow: 4px -2px 5px black;
+}
+
+.ad h2 {
+    font-size: 200;
 }
 
 .hidden {
@@ -189,7 +196,7 @@ main figure.myphoto figcaption {
 .cards img {
     display: block;
     padding: 20px;
-    margin: 10px auto;
+    margin: auto;
     max-width: 300px;
     width: 100%;
     border-radius: 5px;
@@ -218,8 +225,15 @@ main figure.myphoto figcaption {
 }
 /************* FORM (MAIN) *****************/
 
+main {
+    max-width: 1100px;
+    margin: auto;
+    display: block;
+}
+
 form {
     justify-content: center;
+    margin: auto;
 }
 form fieldset {
     font-family: 'Gayathri', sans-serif;

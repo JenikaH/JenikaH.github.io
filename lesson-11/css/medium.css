@@ -1,23 +1,24 @@
 @media only screen and (min-width: 34em) {
-    .navigation li {
-        border-left: 1px solid #faa275;
-    }
 
     .navigation {
         flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .navigation a {
         padding: 1em;
         margin-left: 1.4em;
     }
-
     .navigation li:first-child {
         display: none;
     }
 
     .navigation li {
         display: block;
+    }
+
+    .navigation li {
+        flex: 1 1 100%;
     }
 
     li a {
