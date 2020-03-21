@@ -21,6 +21,12 @@ fetch(requestURL)
                 let rainfall = document.createElement('p');
                 let photo = document.createElement('img');
 
+                /* Events variables */
+                let event1 = document.createElement('p');
+                let event2 = document.createElement('p');
+                let event3 = document.createElement('p');
+                let event4 = document.createElement('p');
+
                 h2.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
                 founded.textContent = "Year Founded: " + towns[i].yearFounded;
@@ -42,3 +48,4 @@ fetch(requestURL)
         }
 
     });
+

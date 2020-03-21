@@ -1,19 +1,26 @@
 var currentDate = new Date();
+var currentDateString;
 
 // get day of week
-let weekDayNumber = currentDate.getDay();
-let daysOfWeek =[
-    'Sunday',
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday'
+var weekDayNumber = currentDate.getDay();
+
+var daysOfWeek =[
+'Sunday',
+'Monday',
+'Tuesday',
+'Wednesday',
+'Thursday',
+'Friday',
+'Saturday'
 ];
 
+var weekDay = daysOfWeek[weekDayNumber];
+
+currentDateString = weekDay + ', ';
+
+currentDateString = currentDateString + currentDate.getDate();
+
 // show/hide pancake
-let weekday = daysofWeek[weekDayNumber];
-if(daysofWeek[currentDate.getDay] === "Friday"){
-document.getElementById("displayad").classList.remove("hidden");
+if(weekDayNumber == 5){
+document.getElementById("displayad").removeAttribute("class","hidden");
 }

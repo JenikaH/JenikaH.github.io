@@ -15,7 +15,7 @@
     </title>
 </head>
 
-<body>
+<body onload="getFiveDayForecast('5604473')">
     <header>
         <script src="../lesson-11/js/hamburger-menu.js"></script>
         <picture><img class="logo" src="../lesson-11/images/sun.png" alt="Sunny Day Weather Logo"></picture>
@@ -42,7 +42,8 @@
             <span id="displayad" class="hidden">
                 <h2><b> Saturday = Preston Pancakes in the Park! 9:00 a.m.
                         Saturday at the city
-                        park pavilion.</b></h2></span>
+                        park pavilion.</b></h2>
+            </span>
         </section>
 
         <section class="herodiv">
@@ -59,75 +60,78 @@
             </div>
         </section>
 
-        <section onload="getFiveDayForecast(5604473)">
-        <!--class="fiveday"-->
-        <!--    
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <p class="preston1"></p>
+            <p class="preston2"></p>
+            <p class="preston3"></p>
+        </section>
+
+        <section class="fiveday">
             <h2>5 Day Forcast</h2>
             <div class="forcast">
                 <div class="col">
-                    <span class="label">Monday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">75 °F</span>
+                    <span class="label" id="day1"></span>
+                    <img id="img1" src="" alt="">
+                    <span class="data" id="temp1"></span>
                 </div>
                 <div class="col">
-                    <span class="label">Tuesday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">72 °F</span>
+                    <span class="label" id="day2"></span>
+                    <img id="img2" src="" alt="">
+                    <span class="data" id="temp2"></span>
                 </div>
                 <div class="col">
-                    <span class="label">Wednesday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">78 °F</span>
+                    <span class="label" id="day3"></span>
+                    <img id="img3" src="" alt="">
+                    <span class="data" id="temp3"></span>
                 </div>
                 <div class="col">
-                    <span class="label">Thursday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">80 °F</span>
+                    <span class="label" id="day4"></span>
+                    <img id="img4" src="" alt="">
+                    <span class="data" id="temp4"></span>
                 </div>
                 <div class="col">
-                    <span class="label">Friday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">79 °F</span>
+                    <span class="label" id="day5"></span>
+                    <img id="img5" src="" alt="">
+                    <span class="data" id="temp5"></span>
                 </div>
             </div>
--->
-            <table>
-                <tr>
-                    <th id="day1"></th>
-                    <th id="day2"></th>
-                    <th id="day3"></th>
-                    <th id="day4"></th>
-                    <th id="day5"></th>
-                </tr>
-                <tr>
-                    <td><img id="img1" src="" alt=""></td>
-                    <td><img id="img2" src="" alt=""></td>
-                    <td><img id="img3" src="" alt=""></td>
-                    <td><img id="img4" src="" alt=""></td>
-                    <td><img id="img5" src="" alt=""></td>
-                </tr>
-                <tr>
-                    <td>Forcast</td>
-                    <td id="temp1"></td>
-                    <td id="temp2"></td>
-                    <td id="temp3"></td>
-                    <td id="temp4"></td>
-                    <td id="temp5"></td>
-                </tr>
-            </table>
         </section>
 
         <article class="box">
             <div class="contactbox">
                 <img src="../lesson-11/images/blonde-hair.jpg" alt="girl-daylight-environment" class="girl">
-                <h3>Article</h3>
-                <p><i>By Jenika Higley</i></p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Dolorem ex odit recusandae hic, pariatur eos consequuntur illum similique sed!
-                    Similique laboriosam quia ut natus dolor nesciunt fuga omnis possimus itaque!<br>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Placeat perspiciatis voluptatem natus optio quod alias, laudantium sunt dolores deleniti!
-                    Quae nostrum eius est, fugiat velit cupiditate. Id velit sint officiis?</p>
+                <h3>Sun Safety: UV Rays Don’t Discriminate</h3>
+                <p><i>NewsUSA – </i></p>
+                <p>
+                     Skin cancer remains a deadly disease in the United States. Data from
+                    the Centers for Disease Control and Prevention suggest that approximately 5.5 million skin cancer
+                    diagnoses and 15,000 deaths will occur this year, according to the Skin Cancer Foundation.
+                    Many misconceptions persist about sun protection and skin cancer, especially among people of color.
+                    “The misperception that people of color don’t need sunscreen is one we need to change because we do
+                    burn and we are susceptible to skin cancer just like everyone else,” says Lavdena Orr, MD, a chief
+                    medical officer with AmeriHealth Caritas, a health care organization dedicated to the care of those
+                    most in need.
+                    “Ultraviolet rays don’t discriminate against skin type, so avoiding sunburn is the primary way to
+                    reduce one’s risk of developing melanoma or any other type of skin cancer.”
+                    Although overall rates of melanoma may be higher among whites, African-Americans are more likely to
+                    be diagnosed at a later stage when the cancer is more severe and the prognosis is less favorable,
+                    according to a 2016 study in the Journal of the American Academy of Dermatology.
+                    Ginette A. Okoye, MD, a board-certified dermatologist and chair of the department of dermatology at
+                    Howard University Hospital in Washington, D.C., adds that in people of color, skin cancer may be
+                    more likely to develop in less obvious areas, such as the feet or nails.
+                    “In some cases, excessive sun exposure is not necessarily the trigger for this type of cancer in
+                    skin of color,” according to Dr. Okoye. However, she notes that individuals with darker skin are at
+                    greater risk of vitamin D deficiency because “the pigment in our skin filters out sunlight which we
+                    need to produce vitamin D in the skin.”
+                    Therefore, she recommends vitamin D supplements if needed and a vitamin D-rich diet, including
+                    salmon, tuna, and mackerel.
+                    In addition, Dr. Okoye reminds her patients of all ethnicities to pay attention to three areas:
+                    – Face: Wear sunscreen daily, or use hats or visors to help protect facial skin from direct sun
+                    exposure.
+                    – Left side: The left arm, as well as the left side of the face, get a lot of sun exposure while
+                    driving. Add some sunscreen or a light, long-sleeved shirt if you have a long summer drive ahead. 
+                    <a href="https://www.copyrightfreecontent.com/seasonal/sun-safety-uv-rays-dont-discriminate/">Read More</a></p>
             </div>
         </article>
 
@@ -153,11 +157,11 @@
         </p>
     </footer>
     <script src="../lesson-11/js/weatherapi.js"></script>
-    <script src="../lesson-11/js/forecast.js"></script>
     <script src="../lesson-11/js/date.js"></script>
     <script src="/lesson-11/js/hamburger-menu.js"></script>
     <script src="../lesson-11/js/pancake-ad.js"></script>
     <script src="../lesson-11/js/windchill.js"></script>
+    <script src="../lesson-11/js/events.js"></script>
 
 </body>
 

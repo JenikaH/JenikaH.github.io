@@ -15,7 +15,7 @@
     </title>
 </head>
 
-<body>
+<body onload="getFiveDayForecast('5585010')">
     <header>
         <script src="../lesson-11/js/hamburger-menu.js"></script>
         <picture><img class="logo" src="../lesson-11/images/sun.png" alt="Sunny Day Weather Logo"></picture>
@@ -59,62 +59,42 @@
             </div>
         </section>
 
-        <section onload="getFiveDayForecast(5604473)">
-            <!--class="fiveday"-->
-            <!--    
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <p class="fish1"></p>
+            <p class="fish2"></p>
+            <p class="fish3"></p>
+        </section>
+
+        <section class="fiveday">
             <h2>5 Day Forcast</h2>
             <div class="forcast">
                 <div class="col">
-                    <span class="label">Monday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">75 °F</span>
+                    <span class="label" id="day1"></span>
+                    <img id="img1" src="" alt="">
+                    <span class="data" id="temp1"></span>
                 </div>
                 <div class="col">
-                    <span class="label">Tuesday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">72 °F</span>
+                    <span class="label" id="day2"></span>
+                    <img id="img2" src="" alt="">
+                    <span class="data" id="temp2"></span>
                 </div>
                 <div class="col">
-                    <span class="label">Wednesday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">78 °F</span>
+                    <span class="label" id="day3"></span>
+                    <img id="img3" src="" alt="">
+                    <span class="data" id="temp3"></span>
                 </div>
                 <div class="col">
-                    <span class="label">Thursday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">80 °F</span>
+                    <span class="label" id="day4"></span>
+                    <img id="img4" src="" alt="">
+                    <span class="data" id="temp4"></span>
                 </div>
                 <div class="col">
-                    <span class="label">Friday</span>
-                    <img src="../lesson-5/images/sun.png" alt="Weather image">
-                    <span class="data">79 °F</span>
+                    <span class="label" id="day5"></span>
+                    <img id="img5" src="" alt="">
+                    <span class="data" id="temp5"></span>
                 </div>
             </div>
--->
-            <table>
-                <tr>
-                    <th id="day1"></th>
-                    <th id="day2"></th>
-                    <th id="day3"></th>
-                    <th id="day4"></th>
-                    <th id="day5"></th>
-                </tr>
-                <tr>
-                    <td><img id="img1" src="" alt=""></td>
-                    <td><img id="img2" src="" alt=""></td>
-                    <td><img id="img3" src="" alt=""></td>
-                    <td><img id="img4" src="" alt=""></td>
-                    <td><img id="img5" src="" alt=""></td>
-                </tr>
-                <tr>
-                    <td>Forcast</td>
-                    <td id="temp1"></td>
-                    <td id="temp2"></td>
-                    <td id="temp3"></td>
-                    <td id="temp4"></td>
-                    <td id="temp5"></td>
-                </tr>
-            </table>
         </section>
 
     </main>
@@ -125,11 +105,11 @@
         </p>
     </footer>
     <script src="../lesson-11/js/weatherapi.js"></script>
-    <script src="../lesson-11/js/forecast.js"></script>
     <script src="../lesson-11/js/date.js"></script>
     <script src="/lesson-11/js/hamburger-menu.js"></script>
     <script src="../lesson-11/js/pancake-ad.js"></script>
     <script src="../lesson-11/js/windchill.js"></script>
+    <script src="../lesson-11/js/events.js"></script>
 </body>
 
 </html>

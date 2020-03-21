@@ -95,7 +95,9 @@ li a:active {
     text-align: left;
 }
 
-
+p {
+    font-weight: bold;
+}
 
 /***** Display banner Section ******/
 
@@ -103,10 +105,6 @@ li a:active {
     background-color: #a01a7d;
     color: whitesmoke;
     text-shadow: 4px -2px 5px black;
-}
-
-.ad h2 {
-    font-size: 200;
 }
 
 .hidden {
@@ -318,4 +316,15 @@ form label.top input:required:valid {
 .gallery img {
     box-shadow: 10px 10px 10px #555;
     border-radius: 10px;
+}
+
+/****************** Events ********************/
+
+.events {
+    background-color: #a01a7d;
+    color: white;
+    padding: 2em;
+    margin: 1em;
+    justify-content: center;
+    text-align: center;
 }
