@@ -183,7 +183,7 @@ main figure.myphoto figcaption {
 }
 
 .cards section {
-    margin: .5em;
+    margin: 10px;
     padding: 20px;
     border: 2px solid #faa275;
     border-radius: 10px;
