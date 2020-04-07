@@ -1,0 +1,107 @@
+@media only screen and (min-width: 34em) {
+
+    /************** Colors ******************/
+    /*
+#FCB97D - Orange
+#EDD892 - Yello
+#C6B89E - Brown
+#B5B8A3 - Grey Green
+#AABA9E - Green
+*/
+
+    /****************** Navigation ************************/
+
+    .links {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .links a {
+        padding: 1em;
+        margin-left: 1.4em;
+    }
+
+    .links li:first-child {
+        display: none;
+    }
+
+    .links li {
+        display: block;
+    }
+
+    .links li {
+        flex: 1 1 100%;
+    }
+
+    li a {
+        background-color: #AABA9E;
+        border: 2px solid rgb(119, 119, 119);
+    }
+
+    /********************** Header *****************************/
+
+    .heading {
+        font-size: 18px;
+        top: 60px;
+    }
+
+    /*************************** Main ***********************/
+
+    /********** Contact ***********/
+
+    .contact {
+        display: flex;
+    }
+
+    .contact div {
+        padding: 5em;
+    }
+
+    /****************** 5 Day Forcast ************************/
+
+    .weather {
+        display: block;
+    }
+
+    .forcast {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col {
+        flex: 1 1 100%;
+        padding: 5px;
+        border: 1px solid black;
+        background-color: #C6B89E;
+        border-radius: 10px;
+        margin: 1px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+
+    .label {
+        display: block;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        background-color: #eee;
+        border: 1px solid black;
+    }
+
+    .forcast div img,
+    table img {
+        border-radius: 100%;
+        padding: 1em;
+        width: 30%;
+    }
+
+    .data {
+        display: block;
+        padding: 0 5px 5px;
+    }
+
+    /****************** Footer ***************************/
+
+
+}

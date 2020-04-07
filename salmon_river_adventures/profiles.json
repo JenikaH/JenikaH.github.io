@@ -1,0 +1,26 @@
+{
+    "profiles": [{
+            "name": "Alex Smith",
+            "photo": "alex.jpg",
+            "certification": "Master",
+            "experience": 3,
+            "email": "alexsmith@gmail.com",
+            "biography": "Alex Smith has been a river guide for just over three years. In his spare time when he is not running rivers he attends BYU-Idaho and is working towards his Bachelors degree. He loves The great outdoors and river rafting."
+        },
+        {
+            "name": "Sally Hill",
+            "photo": "sally.jpg",
+            "certification": "Exerienced",
+            "experience": 1,
+            "email": "sallyhill@gmail.com",
+            "biography": "Sally Hill has been a river guide for one year. In her spare time when she is not running rivers she enjoys going on hikes and reading."
+        }, {
+            "name": "Jacob Jones",
+            "photo": "jacob.jpg",
+            "certification": "Expert",
+            "experience": 2,
+            "email": "jacobjones@gmail.com",
+            "biography": "Jacob Jones has been a river guide for two years. In his spare time when he is not running rivers He..."
+        }
+    ]
+}

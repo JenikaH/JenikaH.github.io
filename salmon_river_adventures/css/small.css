@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2|Noto+Serif&display=swap');
+
+/************** Colors ******************/
+/*
+#FCB97D - Orange
+#EDD892 - Yello
+#C6B89E - Brown
+#B5B8A3 - Grey Green
+#AABA9E - Green
+*/
+
+h1,
+h2 {
+    font-family: 'Noto Serif', serif;
+}
+
+p,
+a,
+li {
+    font-family: 'Baloo 2', cursive;
+}
+
+/************* Navigation ******************/
+
+
+nav ul {
+
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.links li:first-child {
+    display: block;
+}
+
+.links li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+    border-left: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #C6B89E;
+    color: black;
+}
+
+li a:active {
+    background-color: #EDD892;
+}
+
+.active a {
+    border: 2px solid #AABA9E;
+    background-color: white;
+}
+
+.menu {
+    background-color: #AABA9E;
+}
+
+/************* Header *************************/
+
+.heading {
+    display: block;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+    left: 80px;
+}
+
+header picture img {
+    margin-left: 140px;
+    margin-bottom: -40px;
+}
+
+header figure img {
+    max-width: 100%;
+}
+
+h1 {
+    color: #FCB97D;
+    text-shadow: 5px 5px 8px black;
+}
+
+
+/***************** Main ***********************/
+main {
+    padding: 2em;
+    margin: auto;
+    max-width: 1120px;
+}
+
+.trips div img {
+    max-width: 100%;
+    padding: 20px;
+    border: 5px solid #FCB97D;
+}
+
+.trips div ul {
+    padding: 55px;
+    background-color: #AABA9E;
+}
+
+.trips li{
+    font-weight: bolder;
+}
+
+.trips div {
+    display: block;
+}
+
+/***Call to auction*****/
+
+.call{
+    max-width: 900px;
+}
+
+
+/********** Contact ***********/
+
+.contact {
+    display: block;
+    background-color: #EDD892;
+    padding: 25px;
+}
+.contact iframe {
+    max-width: 100%;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+}
+
+form fieldset {
+    font-family: 'Gayathri', sans-serif;
+    margin: 2em;
+    border: 3px solid #FCB97D;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 30em;
+}
+
+form label input:required {
+    border-left: red solid 6px;
+}
+form label input, form label select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #a01a7d;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+}
+
+/****************** 5 Day Forcast ************************/
+
+.weather {
+    display: none;
+}
+
+/****************** Footer ***************************/
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #AABA9E;
+}
