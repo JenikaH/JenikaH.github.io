@@ -10,8 +10,6 @@
 */
 
     .heading {
-        top: 100px;
-        left: 250px;
         font-size: 30px;
     }
 
@@ -29,7 +27,5 @@
     .trips div ul {
         margin-left: 30px;
     }
-
-
 
 }

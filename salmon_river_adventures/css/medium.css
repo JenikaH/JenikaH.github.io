@@ -40,17 +40,10 @@
 
     /********************** Header *****************************/
 
-    .heading {
-        position: absolute;
+    .heading{
         font-size: 18px;
-        top: 50px;
-        left: 80px;
     }
 
-    header figure img {
-        display: block;
-        max-width: 100%;
-    }
 
     /*************************** Main ***********************/
 
@@ -106,11 +99,12 @@
 
     .col {
         flex: 1 1 100%;
-        padding: 5px;
+        padding: 10px;
         border: 1px solid black;
         background-color: #C6B89E;
+        opacity: 85%;
         border-radius: 10px;
-        margin: 1px;
+        margin: 10px;
         font-size: 13px;
         text-align: center;
     }

@@ -10,6 +10,13 @@
 #AABA9E - Green
 */
 
+body {
+    background: url('../images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
 main {
     max-width: 100%;
 }
@@ -99,10 +106,6 @@ li a:active {
     text-align: center;
 }
 
-header figure img {
-    display: none;
-}
-
 h1 {
     color: #FCB97D;
     text-shadow: 5px 5px 8px black;
@@ -141,7 +144,9 @@ h1 {
 .call {
     padding: 25px;
     margin-bottom: 60px;
-    border: 5px solid #EDD892;
+    background-color: #C6B89E ;
+    border: 5px solid white;
+    opacity: 90%;
 }
 
 
@@ -151,27 +156,33 @@ h1 {
     display: block;
     padding: 25px;
     margin-bottom: 60px;
-    border: 5px solid #FCB97D;
-    background-color: #B5B8A3;
+    border: 5px solid #EDD892;
+    background-color: white;
+    opacity: 90%;
 }
 
 .contact iframe {
     max-width: 100%;
 }
 
-/*************** Form ***************/
+/***************** Form *****************/
+
+
 form label {
     display: block;
     padding-top: 1rem;
 }
 
 form fieldset {
-    font-family: 'Gayathri', sans-serif;
+    font-family: 'Noto Serif', serif;
     margin: 2em;
-    border: 3px solid #FCB97D;
+    background-color: #C6B89E;
+    opacity: 90%;
+    border: 5px solid #AABA9E;
     border-radius: 10px;
     padding: .5rem 2%;
-    max-width: 30em;
+    max-width: 600px;
+    text-align: center;
 }
 
 form label input:required {
@@ -182,12 +193,36 @@ form label input,
 form label select {
     -webkit-appearance: none;
     display: block;
+    margin: auto;
     font-size: 1rem;
-    border: solid 1px #a01a7d;
+    border: solid 3px #AABA9E;
     border-radius: 4px;
     padding: .75rem;
     color: #555;
     width: 100%;
+    max-width: 50%;
+}
+
+form legend {
+    background-color: white;
+    border: 3px solid #AABA9E;
+    font-size: 25px;
+    margin: 0 50px;
+    padding: 10px;
+}
+
+
+
+form input.button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 15px;
+    margin: 2em;
+    width: 96%;
     max-width: 20rem;
 }
 
@@ -200,9 +235,9 @@ form label select {
 .employees section {
     margin: 10px;
     padding: 20px;
-    border: 2px solid #AABA9E;
+    border: 5px solid #FCB97D;
     border-radius: 10px;
-    background-color: #EDD892;
+    background-color: #C6B89E;
     box-shadow: 8px 8px 20px;
 }
 
