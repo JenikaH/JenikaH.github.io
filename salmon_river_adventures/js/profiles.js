@@ -38,7 +38,7 @@ fetch(requestURL)
                 div.appendChild(biography);
                 card.appendChild(photo);
 
-                document.querySelector('div.cards').appendChild(card);
+                document.querySelector('div.employees').appendChild(card);
             }
         }
 

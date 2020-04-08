@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2|Noto+Serif&display=swap');
 
 /************** Colors ******************/
+
 /*
 #FCB97D - Orange
 #EDD892 - Yello
@@ -8,6 +9,15 @@
 #B5B8A3 - Grey Green
 #AABA9E - Green
 */
+
+main {
+    max-width: 100%;
+}
+
+header, main {
+    max-width: 1100px;
+    margin: auto;
+  }
 
 h1,
 h2 {
@@ -85,20 +95,12 @@ li a:active {
 
 .heading {
     display: block;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    top: 30px;
-    left: 80px;
-}
-
-header picture img {
-    margin-left: 140px;
-    margin-bottom: -40px;
+    position: relative;
+    text-align: center;
 }
 
 header figure img {
-    max-width: 100%;
+    display: none;
 }
 
 h1 {
@@ -106,37 +108,40 @@ h1 {
     text-shadow: 5px 5px 8px black;
 }
 
+.logo{
+    margin-bottom: -50px;
+}
+
 
 /***************** Main ***********************/
-main {
-    padding: 2em;
-    margin: auto;
-    max-width: 1120px;
-}
 
-.trips div img {
-    max-width: 100%;
-    padding: 20px;
-    border: 5px solid #FCB97D;
-}
-
-.trips div ul {
-    padding: 55px;
-    background-color: #AABA9E;
-}
-
-.trips li{
-    font-weight: bolder;
-}
 
 .trips div {
     display: block;
 }
 
+.trips img {
+    max-width: 400px;
+    border: 5px solid #FCB97D;
+    margin: 20px;
+}
+
+.trips ul {
+    padding: 55px;
+    margin: 20px;
+    background-color: #AABA9E;
+}
+
+.trips li {
+    font-weight: bolder;
+}
+
 /***Call to auction*****/
 
-.call{
-    max-width: 900px;
+.call {
+    padding: 25px;
+    margin-bottom: 60px;
+    border: 5px solid #EDD892;
 }
 
 
@@ -144,13 +149,17 @@ main {
 
 .contact {
     display: block;
-    background-color: #EDD892;
     padding: 25px;
+    margin-bottom: 60px;
+    border: 5px solid #FCB97D;
+    background-color: #B5B8A3;
 }
+
 .contact iframe {
     max-width: 100%;
 }
 
+/*************** Form ***************/
 form label {
     display: block;
     padding-top: 1rem;
@@ -168,7 +177,9 @@ form fieldset {
 form label input:required {
     border-left: red solid 6px;
 }
-form label input, form label select {
+
+form label input,
+form label select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -179,6 +190,31 @@ form label input, form label select {
     width: 100%;
     max-width: 20rem;
 }
+
+/****** Cards Section********/
+.employees {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.employees section {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #AABA9E;
+    border-radius: 10px;
+    background-color: #EDD892;
+    box-shadow: 8px 8px 20px;
+}
+
+.employees img {
+    display: block;
+    border-radius: 40px;
+    padding: 20px;
+    margin: auto;
+    max-width: 300px;
+    width: 100%;
+}
+
 
 /****************** 5 Day Forcast ************************/
 

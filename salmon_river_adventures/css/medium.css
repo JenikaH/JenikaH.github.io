@@ -41,11 +41,23 @@
     /********************** Header *****************************/
 
     .heading {
+        position: absolute;
         font-size: 18px;
-        top: 60px;
+        top: 50px;
+        left: 80px;
+    }
+
+    header figure img {
+        display: block;
+        max-width: 100%;
     }
 
     /*************************** Main ***********************/
+
+    .trips div {
+        display: flex;
+    }
+    
 
     /********** Contact ***********/
 
@@ -55,6 +67,30 @@
 
     .contact div {
         padding: 5em;
+    }
+
+    /****** Cards Section********/
+    .employees {
+        display: block;
+    }
+
+    .employees section div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .employees section img {
+        margin: auto;
+    }
+
+    .employees section {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+    }
+
+    .employees section:nth-child(odd) {
+        flex-direction: row-reverse;
     }
 
     /****************** 5 Day Forcast ************************/
