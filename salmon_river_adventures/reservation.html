@@ -26,26 +26,71 @@
 
     <header>
         <section class="heading">
-            <picture><img class="logo" src="../salmon_river_adventures/images/logo.png" alt="Salmon River Adventures Logo"></picture>
+            <picture><img class="logo" src="../salmon_river_adventures/images/logo.png"
+                    alt="Salmon River Adventures Logo"></picture>
             <h1>Salmon River Adventures</h1>
         </section>
     </header>
 
     <main>
-        <form>
+        <table style="width:100%">
+            <tr>
+                <th></th>
+                <th>The Adventurer</th>
+                <th>White waters</th>
+                <th>The Crazy Salmon</th>
+            </tr>
+            <tr>
+                <td>length</td>
+                <td>3 miles</td>
+                <td>4.5 miles</td>
+                <td>6 miles</td>
+            </tr>
+            <tr>
+                <td>Skill Level</td>
+                <td>Beginner</td>
+                <td>Moderate</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>Cost</td>
+                <td>&#36; 63</td>
+                <td>&#36; 80</td>
+                <td>&#36; 120</td>
+            </tr>
+            <tr>
+                <td>Services</td>
+                <td>River Guide and raft</td>
+                <td>River Guide, Raft, and Shuttle</td>
+                <td>River Guide, Raft, Shuttle, and One over night stay camp site</td>
+            </tr>
+        </table>
+
+        <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Your Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required> </label>
                 <label class="top">Last Name* <input type="text" name="lname" required> </label>
-                <label class="top">Email <input type="email" name="email" placeholder="myemail@gmail.com">
-                </label>
+                <label class="top">Email <input type="email" name="email" placeholder="myemail@gmail.com"></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="(123)555-1234" required> </label>
             </fieldset>
             <fieldset>
-                <legend>Question</legend>
-                <label class="top"><textarea maxlength="300" placeholder="300 character limit"></textarea>
+                <legend>Adventure</legend>
+
+                <label class="top">Adventure Selection</label>
+                <input type="text" list="Adventure" name="AdventureSelection" placeholder="Please Select One">
+                <datalist id="Adventure">
+                    <option value="The Adventurer"></option>
+                    <option value="White waters"></option>
+                    <option value="The Crazy Salmon"></option>
+                </datalist>
+
+                <label class="top">Adventure Date <input type="date" name="date"> </label>
+
+                <label class="top">Comments<br><textarea maxlength="300" placeholder="300 character limit"></textarea>
                 </label>
             </fieldset>
-            <input type="submit" value="Get More Inforamtion" class="button">
+            <input type="submit" value="Confirm Adventure Trip" class="button">
         </form>
     </main>
 

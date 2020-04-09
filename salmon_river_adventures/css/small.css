@@ -14,27 +14,24 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-  }
+    font-family: 'Baloo 2', cursive;
+}
 
 main {
     max-width: 100%;
 }
 
-header, main {
+header,
+main {
     max-width: 1100px;
     margin: auto;
-  }
+}
 
 h1,
 h2 {
     font-family: 'Noto Serif', serif;
 }
 
-p,
-a,
-li {
-    font-family: 'Baloo 2', cursive;
-}
 
 /************* Navigation ******************/
 
@@ -110,40 +107,40 @@ h1 {
     text-shadow: 5px 5px 8px black;
 }
 
-.logo{
+.logo {
     margin-bottom: -50px;
 }
 
 
 /***************** Main ***********************/
 
+.trips {
+    margin: auto;
+}
 
 .trips div {
     display: block;
 }
 
 .trips img {
-    max-width: 400px;
+    max-width: 100%;
     border: 5px solid #FCB97D;
     margin: 20px;
 }
 
-.trips ul {
+.river {
     padding: 55px;
     margin: 20px;
     background-color: #AABA9E;
 }
 
-.trips li {
-    font-weight: bolder;
-}
 
 /***Call to auction*****/
 
 .call {
     padding: 25px;
     margin-bottom: 60px;
-    background-color: #C6B89E ;
+    background-color: #C6B89E;
     border: 5px solid white;
     opacity: 90%;
 }
@@ -178,7 +175,6 @@ form fieldset {
     background-color: #C6B89E;
     opacity: 90%;
     border: 5px solid #AABA9E;
-    border-radius: 10px;
     padding: .5rem 2%;
     max-width: 600px;
     text-align: center;
@@ -193,9 +189,8 @@ form label select {
     -webkit-appearance: none;
     display: block;
     margin: auto;
+    border: 3px solid rgb(119, 119, 119);
     font-size: 1rem;
-    border: solid 3px #AABA9E;
-    border-radius: 4px;
     padding: .75rem;
     color: #555;
     width: 100%;
@@ -203,8 +198,8 @@ form label select {
 }
 
 form legend {
+    border: 3px solid rgb(119, 119, 119);
     background-color: white;
-    border: 3px solid #AABA9E;
     font-size: 25px;
     margin: 0 50px;
     padding: 10px;
@@ -213,8 +208,8 @@ form legend {
 
 
 form input.button {
-    border: none;
-    background-color: black;
+    border: 3px solid rgb(119, 119, 119);
+    background-color: #AABA9E;
     color: white;
     font-size: larger;
     margin: auto;
@@ -223,6 +218,19 @@ form input.button {
     margin: 2em;
     width: 96%;
     max-width: 20rem;
+}
+
+form input.button:hover {
+    background-color: #FCB97D;
+    color: black;
+}
+
+.white {
+    background-color: #EDD892;
+    opacity: 80%;
+    text-align: center;
+    padding: 70px;
+    margin: auto;
 }
 
 /****** Cards Section********/
@@ -249,6 +257,20 @@ form input.button {
     width: 100%;
 }
 
+/******************** Table ***************************************/
+table,
+th,
+td {
+    border: 3px solid rgb(119, 119, 119);
+    background-color: whitesmoke;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
 
 /****************** 5 Day Forcast ************************/
 
@@ -263,6 +285,7 @@ footer {
     text-align: center;
     background-color: #AABA9E;
 }
+
 /*******************************************************************************************************************/
 /*******************************************************************************************************************/
 /***************************************** Medium CSS *************************************************************/
@@ -299,7 +322,7 @@ footer {
 
     /********************** Header *****************************/
 
-    .heading{
+    .heading {
         font-size: 18px;
     }
 
@@ -309,7 +332,7 @@ footer {
     .trips div {
         display: flex;
     }
-    
+
 
     /********** Contact ***********/
 
@@ -408,7 +431,6 @@ footer {
     .trips div {
         display: flex;
         flex-direction: row;
-        padding: 50px;
     }
 
     .trips div img {
